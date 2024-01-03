@@ -580,6 +580,13 @@ html{
     top: 51%;
     left:-52px;
 }
+.contcontainer{
+    font-size: 10px;
+    padding:10px 5px;
+}
+.content p i{
+    font-size: 15px;
+}
 }
 
 @media (min-width:924px) and (max-width:1185.6px)
