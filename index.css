@@ -490,7 +490,7 @@ html{
     margin-right: 15px;
     font-size: 20px;
 }
-@media only screen and (max-width:1200px){
+@media only screen and (width<757.6px){
     #header{
     background-image: url(images/about.png);
     }
@@ -557,6 +557,7 @@ html{
 .checkpoint div{
     transform: translateX(-50px);
     width:100%;
+    font-size: 10px;
 }
 
 .checkpoint:nth-child(even) div::before{
@@ -579,5 +580,18 @@ html{
     top: 51%;
     left:-52px;
 }
+}
+
+@media (min-width:924px) and (max-width:1185.6px)
+{
+    .timeline{
+        margin-top:350px;
+       }
+}
+@media (min-width:757.6px) and (max-width:923px)
+{
+    .timeline{
+        margin-top:500px;
+       }
 }
 
