@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Vahini's Portfolio</title>
+    <script src="https://kit.fontawesome.com/78cbfb94e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="navcontainer">
+            <nav>
+            <img src="images/port.webp" alt="">
+            <ul id="sidemenu">
+                <i class="fa-regular fa-circle-xmark" onclick="closem()"></i>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#contact">Resume</a></li>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openm()"></i>
+            </nav>
+            <div class="text">
+                <h1>
+                    Hi,<br> I'm<span> Vahini</span> Gowdeti
+                </h1>
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="row">
+            <div class="col1">
+                <img src="images/about.png" alt="">
+            </div>
+            <div class="col2">
+                <h1 class="heading">About me</h1>
+                <br>
+                <p>I am currently pursuing <span>3rd year</span> of my bachelors degree(<span>B.TECH</span>) in Computer
+                    Science & Engineering(<span>CSE</span>) at <span>SASTRA</span> University.
+                <p>
+                <ul class="tabs">
+                    <li class="tablink active" onclick="opentab('lang')">Languages known</li>
+                    <li class="tablink" onclick="opentab('non')">Non-academic</li>
+                    <li class="tablink" onclick="opentab('exp')">Experience</li>
+                </ul>
+
+                <div class="tc active" id="lang">
+                    <div class="tabcontent1">
+                        <h3>English</h3>
+                        <div class="bar">
+                            <div class="eng"><span>87%</span></div>
+                        </div>
+                        <h3>Telugu</h3>
+                        <div class="bar">
+                            <div class="tel"><span>83%</span></div>
+                        </div>
+                        <h3>Hindi</h3>
+                        <div class="bar">
+                            <div class="hin"><span>75%</span></div>
+                        </div>
+                        <h3>Kannada</h3>
+                        <div class="bar">
+                            <div class="kan"><span>50%</span></div>
+                        </div>
+                        <h3>Tamil</h3>
+                        <div class="bar">
+                            <div class="tam"><span>20%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tc" id="non">
+                    <div class="tabcontent2">
+                        <div class="col">
+                            <h2>NCC</h2>
+                            <p>I am an NCC B-Certified Cadet.I am the Cadet Under Officer(CUO) of the SASTRA
+                                University girls contingent.I am currently undergoing training for C-certificate.I
+                                have attended 2 NCC camps.</p>
+                        </div>
+                        <div class="col">
+                            <h2>Marketing</h2>
+                            <p>I am a part of the marketing team called DAKSH Marketing Team(DMT) of SASTRA
+                                University.</p>
+                        </div>
+                        <div class="col">
+                            <h2>Yoga</h2>
+                            <p>I have practiced yoga as a part of my curriculum and it has become my hobby now.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="skills" class="skills">
+        <h1>My skills</h1>
+        <div class="rows">
+            <div class="element">
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML</h2>
+                <p>Website creation using HTML and use of HTML in python based Django projects</p>
+            </div>
+            <div class="element">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h2>CSS</h2>
+                <p>Styling and animating websites using style sheets</p>
+            </div>
+            <div class="element">
+                <i class="fa-brands fa-js"></i>
+                <h2>JS</h2>
+                <p>Adding dynamic features to the website</p>
+            </div>
+            <div class="element">
+                <i class="fa-brands fa-python"></i>
+                <h2>Python programming</h2>
+                <p>Problem solving using python programming and building websites using Django framework</p>
+            </div>
+            <div class="element">
+                <i class="fa-solid fa-code"></i>
+                <h2>Data structures and Algorithms</h2>
+                <p>Using different data structures like list,stack and map to solve various problems.</p>
+            </div>
+            <div class="element">
+                <i class="fa-solid fa-database"></i>
+                <h2>DBMS</h2>
+                <p>Writing SQL queries and management of data.</p>
+            </div>
+
+        </div>
+    </div>
+    <div  id="education"class="timeline">
+        <div class="containertime">
+            <div class="checkpoint">
+                <div>
+                    <h1>10th Grade</h1>
+                    <small>2018-2019</small>
+                    <h2>Institution:Bharatiya Vidya Bhavans</h2>
+                    <h2>Percentage:98%</h2>
+                </div>
+            </div>
+            <div class="checkpoint">
+                <div>
+                    <h1>12th Grade</h1>
+                    <small>2020-2021</small>
+                    <h2>Institution:Sarath Junior College</h2>
+                    <h2>Percentage:98.4%</h2>
+                </div>
+            </div>
+            <div class="checkpoint">
+                <div>
+                    <h1>Bachelors degree</h1>
+                    <small>2021-2025</small>
+                    <h2>Institution:SASTRA University,Tamilnadu</h2>
+                    <h2>CGPA:9.3</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="contact">
+        <div class="contcontainer">
+            <div class="content">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>vahinigowdeti@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6304770306</p>
+                    <a href="images/RESUME.pdf" class="btn" target="_blank">Download Resume</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tablink");
+        var tabcontents = document.getElementsByClassName("tc");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active");
+            }
+            event.currentTarget.classList.add('active');
+            document.getElementById(tabname).classList.add("active");
+        }
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openm(){
+            sidemeu.style.left = "0";
+        }
+        function closem(){
+            sidemeu.style.left = "-200px";
+        }
+    </script>
+</body>
+
+</html>
