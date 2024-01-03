@@ -537,7 +537,7 @@ html{
     margin:auto;
    }
    .timeline{
-    margin:1100px auto;
+    margin-top:1200px;
    }
    .timeline::after{
     left:31px;
@@ -551,9 +551,12 @@ html{
     font-size:13px;
     left:0;
    }
-   
+   .checkpoint{
+    width: 100%;
+   }
 .checkpoint div{
     transform: translateX(-50px);
+    width:100%;
 }
 
 .checkpoint:nth-child(even) div::before{
